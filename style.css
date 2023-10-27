@@ -1,12 +1,48 @@
-body, ul {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
   text-align: center;
   margin: 0;
   padding: 0;
-} 
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  padding: 20px 0;
+}
+
+#movie-details {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#movie-list {
+  flex: 1;
+  text-align: left;
+  padding: 10px;
+}
+
+#movie-list li {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+}
+
+#book-ticket:hover {
+  background-color:(red) 
+}
+
+#movie-poster {
+  max-width: 30%;
+  height: auto;
+  margin: 8px;
+  transition: transform 0.3s;
+}
+
+ul#films {
+  display: block;
+}
